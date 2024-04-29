@@ -1,2 +1,1 @@
-https://img.shields.io/badge/build-SNAPSHOT-blue
-
+[!][https://img.shields.io/badge/build-SNAPSHOT-blue]
