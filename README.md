@@ -1,4 +1,5 @@
 ![Static Badge](https://img.shields.io/badge/build-SNAPSHOT-blue)
+
 <dependency>
       <groupId>plugins</groupId>
       <artifactId>EasyConfigApi</artifactId>
