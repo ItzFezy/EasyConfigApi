@@ -15,14 +15,14 @@ import java.util.logging.Level;
 
 public class EasyConfig {
 
-        public static File file;
-        public static String ConfigName;
+        private static File file;
+        private static String ConfigName;
 
-        public static YamlConfiguration newConfig;
-        public static YamlConfiguration getConfig(String ConfigName){
-                EasyConfig.ConfigName = ConfigName;
+        private static YamlConfiguration newConfig;
+        public static YamlConfiguration getConfig(String configName){
+                ConfigName = configName;
                 File Config = new File(ECA.getPlugin().getDataFolder(), ConfigName);
-                EasyConfig.file = Config;
+                file = Config;
                 return YamlConfiguration.loadConfiguration(Config);
         }
         public static void saveDefaultCustomConfig(String configName){
