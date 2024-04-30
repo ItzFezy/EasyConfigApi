@@ -4,10 +4,15 @@ import lombok.Getter;
 import org.bukkit.plugin.Plugin;
 import plugins.easyconfigapi.Configs.EasyConfig;
 
+import java.io.IOException;
+
 public class ECA {
-    @Getter
-    public static Plugin plugin;
+    private static Plugin plugin;
     public static void setPlugin(Plugin plugin){
         ECA.plugin = plugin;
+    }
+
+    public static Plugin getPlugin(){
+        if (plugin != null) {return plugin;} else {return null;}
     }
 }
