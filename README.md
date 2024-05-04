@@ -5,3 +5,5 @@
 <p>API Examples:</p>
 <body>ECA.setPlugin(this);</body>
 <p>EasyConfig.GetConfig("Example config name");</p>
+
+<h2>Javadoc coming soon....</h2>
