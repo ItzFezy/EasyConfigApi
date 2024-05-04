@@ -4,4 +4,4 @@
 <h2>To use the API make it a system scope</h2>
 <p>API Examples:</p>
 <body>ECA.setPlugin(this);</body>
-<body>EasyConfig.GetConfig("Example config name");</body>
+<p>EasyConfig.GetConfig("Example config name");</p>
