@@ -6,7 +6,7 @@
 
     <groupId>plugins</groupId>
     <artifactId>EasyConfigApi</artifactId>
-    <version>1.0.5-FULLBUILD</version>
+    <version>1.0.3-FULLBUILD</version>
     <packaging>jar</packaging>
 
     <name>EasyConfigApi</name>
@@ -30,10 +30,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>3.2.4</version>
+                <version>3.2.1</version>
                 <executions>
                     <execution>
-                        <phase>package</phase>
+                        <phase>verify</phase>
                         <goals>
                             <goal>shade</goal>
                         </goals>
