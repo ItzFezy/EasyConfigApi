@@ -1,4 +1,4 @@
 name: EasyConfigApi
 version: '${project.version}'
 main: plugins.easyconfigapi.Main
-api-version: '1.20'
+api-version: '1.8'
