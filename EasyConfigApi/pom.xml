@@ -6,13 +6,13 @@
 
     <groupId>plugins</groupId>
     <artifactId>EasyConfigApi</artifactId>
-    <version>1.0.3-FULLBUILD</version>
+    <version>1.0.5-FULLBUILD</version>
     <packaging>jar</packaging>
 
     <name>EasyConfigApi</name>
 
     <properties>
-        <java.version>17</java.version>
+        <java.version>1.7</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -21,11 +21,11 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+                <version>3.2</version>
                 <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
-                    <release>${java.version}</release>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                    <release>1.7</release>
                 </configuration>
             </plugin>
             <plugin>
