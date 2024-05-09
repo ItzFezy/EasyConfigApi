@@ -6,7 +6,7 @@
 
     <groupId>plugins</groupId>
     <artifactId>EasyConfigApi</artifactId>
-    <version>1.0.1-FULLBUILD</version>
+    <version>1.0.2-FULLBUILD</version>
     <packaging>jar</packaging>
 
     <name>EasyConfigApi</name>
